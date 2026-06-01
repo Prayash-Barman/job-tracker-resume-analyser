@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Job</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<h2>Edit Job Status</h2>
+
+<p>{{ job.company }}</p>
+
+<form method="POST">
+
+<select name="status">
+
+    <option value="Applied">Applied</option>
+    <option value="OA">OA</option>
+    <option value="Interview">Interview</option>
+    <option value="Rejected">Rejected</option>
+    <option value="Offer">Offer</option>
+
+</select>
+
+<br><br>
+
+<button type="submit">
+    Update Status
+</button>
+
+</form>
+
+</body>
+</html>
